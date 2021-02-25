@@ -8,6 +8,7 @@
     "build": "tsc",
     "watch": "tsc --watch",
     "run-ts": "ts-node",
+    "run-js": "node",
     "fix": "run-s typecheck lint format",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --fix ./src",
